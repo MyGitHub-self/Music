@@ -1,0 +1,12 @@
+<template name="search">
+  <van-tab title="搜索">
+    <van-search value="{{ value }}" placeholder="请输入搜索关键词点击确定" use-action-slot bind:search="onsearch" background="#ffffff">
+    </van-search>
+    <block wx:for="{{ searchmusic }}" wx:for-item="search" wx:if="{{ inputshow }}" wx:key="search">
+      <van-cell title="{{search.title}}" icon="play-circle-o" is-link bindtap='onplay' data-play="{{search}}">
+        {{ search.name }}
+      </van-cell>
+    </block>
+    <view class="searchnull" wx:if="{{!inputshow}}">搜索列表为空</view>
+  </van-tab>
+</template>

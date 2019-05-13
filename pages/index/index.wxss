@@ -1,0 +1,6 @@
+.searchnull{
+   text-align: center;
+   font-size: 40rpx;
+   color: #DCDCDC;
+   margin:200rpx;
+}

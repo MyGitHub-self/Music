@@ -1,0 +1,10 @@
+<template name="catalog">
+<view class='bgimg'>
+<image src="{{ topbgimg }}" mode='scaleToFill'></image></view>
+<block wx:for="{{ list }}" wx:for-item="list" wx:key="list">
+<van-cell
+  title="{{ list.title}}"
+  icon="play-circle-o"
+  is-link  bindtap='onplay' data-play="{{ list }}">{{ list.name }}</van-cell>
+</block>
+</template>

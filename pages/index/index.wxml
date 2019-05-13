@@ -1,0 +1,6 @@
+<import src="../template/top-template.wxml" />
+<import src="../template/search-template.wxml" />
+<van-tabs type="card" color="#cdffeb" >
+  <template is="top" data="{{ list }}" />
+  <template is="search" data="{{ searchmusic ,inputshow }}" />
+</van-tabs>

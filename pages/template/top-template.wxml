@@ -1,0 +1,7 @@
+<template name="top" >
+  <van-tab title="排行榜">
+  <block wx:for="{{ list }}" wx:for-item="list" wx:key="list"> 
+  <van-cell  title="{{ list.title }}"  is-link  bindtap='onchangji' data-id="{{ list.id }}"/>
+  </block>
+  </van-tab>
+</template>

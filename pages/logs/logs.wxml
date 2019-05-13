@@ -1,0 +1,3 @@
+<import src="../template/play-template.wxml" />
+<view class="null" wx:if="{{!iconshow}}">目前暂无播放音乐</view>
+<template is="audio"  data="{{temp,iconplay}}" wx:if="{{iconshow}}"/>

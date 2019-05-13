@@ -1,0 +1,2 @@
+<import src="../template/catalog-template.wxml" />
+<template is="catalog"  data="{{ ...music}}" />

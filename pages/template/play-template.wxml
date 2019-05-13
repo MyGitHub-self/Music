@@ -1,0 +1,14 @@
+<template name="audio">
+<view class='bgimg'>
+<image src='{{temp.bgimg}}'></image>
+</view>
+<view class='musicname'>
+<view class='title'>歌名：{{ temp.title }}</view>
+<view class='name'>歌星：{{ temp.name }}</view>
+</view>
+<view class='iconplay'>
+<view class='icon' bindtap='onplay'> <image src='../../images/play.png' wx:if="{{ iconplay }}"></image>
+<image src='../../images/pause.png' wx:else="{{ iconplay }}"></image>
+</view>
+</view>
+</template>

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/top/top"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天天动听",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/online.png",
+        "selectedIconPath": "images/online-s.png",
+        "text": "在线音乐"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/playing.png",
+        "selectedIconPath": "images/playing-s.png",
+        "text": "正在播放"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-tab": "..//node_modules1/vant-weapp/dist/tab/index",
+    "van-tabs": "..//node_modules1/vant-weapp/dist/tabs/index",
+    "van-cell": "..//node_modules1/vant-weapp/dist/cell/index",
+    "van-cell-group": "..//node_modules1/vant-weapp/dist/cell-group/index",
+    "van-search": "..//node_modules1/vant-weapp/dist/search/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
