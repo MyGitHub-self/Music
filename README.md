@@ -17,3 +17,7 @@
     -app.wxss                           ---全局的样式存储
     -project.config.json                ---项目配置文件
     -sitemap.json                       ---全局配置文件
+
+###首页预览图
+
+![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/music/%5BN82OT4ZYFB%5B%5B%24TKGZ52ZL5.png)
