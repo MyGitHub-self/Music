@@ -18,15 +18,18 @@
     -project.config.json                ---项目配置文件
     -sitemap.json                       ---全局配置文件
 
-       首页预览图
-        ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/Home.png)
-       排行榜预览图
-       ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/top.png)
-       搜索页预览图
-       ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/search.png)
-       默认播放页预览图
-       ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/play.png)
-       搜索页播放效果图
-       ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/play2.png)
-       排行榜播放效果图
-       ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/play1.png)
+   首页预览图  
+ ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/Home.png)  
+   排行榜预览图  
+ ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/top.png)  
+   搜索页预览图  
+ ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/search.png)  
+   默认播放页预览图  
+ ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/play.png)  
+   搜索页播放效果图   
+ ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/play2.png)  
+   排行榜播放效果图     
+  ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/play1.png)  
+  
+  
+  基于微信小程序+vantui+163api搭建的一个music小程序的大致实现流程 
