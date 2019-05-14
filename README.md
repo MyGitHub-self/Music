@@ -1,24 +1,24 @@
- 本文是基于微信小程序+vantui+163api搭建的一个music小程序的大致实现流程如下！
+ 本文是基于微信小程序+vantui+163api搭建的一个music小程序的实现流程如下！
  
 目录
 ------
-    -application                        ---静态数据存储
-       --server.js                      ---静态数据库  
+    -application                        ---静态数据存储库
+       --server.js                      ---静态数据区  
     -images                             ---图片库
     -node_modules1                      ---引用的UI框架包
-       --vant-weapp                     ---引用的UI框架组件   
+       --vant-weapp                     ---引用的UI框架组件包   
     -pages
        --index                          ---主页    
        --logs                           ---搜索页
-       --template                       ---模版
+       --template                       ---模版页
        --top                            ---排行榜页  
-    -utils
+    -utils                              ---公共JS存储库
        --utils.js                       ---公共的js存储
     -app.js                             ---公共的变量存储  
-    -aap.json                           ---
+    -aap.json                           ---全局入口文件
     -app.wxss                           ---全局的样式存储
     -project.config.json                ---项目配置文件
-    -sitemap.json                       ---全局配置文件
+    -sitemap.json                       ---微信页面索引文件
 
    首页预览图  
  ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/Home.png)  
