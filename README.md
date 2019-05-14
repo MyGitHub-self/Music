@@ -1,3 +1,5 @@
+ 本文是基于微信小程序+vantui+163api搭建的一个music小程序的大致实现流程如下！
+ 
 目录
 ------
     -application                        ---静态数据存储
@@ -32,4 +34,3 @@
   ![](https://raw.githubusercontent.com/MyGitHub-self/Mydemo/master/wxmusic/play1.png)  
   
   
-  基于微信小程序+vantui+163api搭建的一个music小程序的大致实现流程 
